@@ -20,6 +20,62 @@
         --font-main: "Red Hat Display", sans-serif;
       }
     </style>
+    <style>
+      /* Make images and videos responsive */
+img, video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Links and buttons */
+a {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover, a:focus {
+  background-color: #005fa3;
+}
+
+/* Responsive typography */
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 10px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Container padding for smaller screens */
+.container {
+  padding: 0 15px;
+  max-width: 100%;
+}
+
+/* Prevent horizontal scrolling on smaller devices */
+body, html {
+  overflow-x: hidden;
+}
+
+/* Responsive layout example */
+@media screen and (max-width: 600px) {
+  h1, h2, h3 {
+    font-size: 1.5em;
+  }
+
+  a {
+    font-size: 20px;
+    padding: 14px 24px;
+  }
+}
+    </style>
   </head>
   <body>
 
